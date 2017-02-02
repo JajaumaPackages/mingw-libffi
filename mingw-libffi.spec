@@ -2,7 +2,7 @@
 
 Name:		mingw-libffi
 Version:	3.0.13
-Release:	7%{?dist}
+Release:	8%{?dist}
 Summary:	A portable foreign function interface library for MinGW
 
 Group:		System Environment/Libraries
@@ -101,6 +101,9 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 3.0.13-8
+- Rebuilt with GCC 5.4.0
+
 * Thu Feb 04 2016 Fedora Release Engineering <releng@fedoraproject.org> - 3.0.13-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_24_Mass_Rebuild
 
